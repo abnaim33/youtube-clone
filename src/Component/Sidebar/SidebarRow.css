@@ -1,0 +1,30 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+}
+.sidebarRow_icon{
+    color:gray;
+    
+    padding: 10px 20px;
+}
+.sidebarRow_title{
+    font-weight: 500;
+    flex:1;
+    
+}
+.sidebarRow:hover{
+    background: rgb(223, 219, 219);
+    cursor: pointer;
+}
+.sidebarRow:hover .sidebarRow_icon{
+    color:rgb(211, 58, 58)
+}
+.sidebarRow.selected{
+    background: lightgray;
+}
+.sidebarRow.selected .sidebarRow_icon{
+    color:rgb(211, 58, 58)
+}
+.sidebarRow.selected .sidebarRow_title{
+    font-weight: bold;
+}
